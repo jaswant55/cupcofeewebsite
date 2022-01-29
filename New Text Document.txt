@@ -1,0 +1,9 @@
+touch .gitignore
+git config --global user.name "jaswant"
+git config --global user.email "jaswantpatel2000jassu@gmail.com"
+git init 
+git add . 	
+git commit -m "initial commit"
+git status
+ssh-keygen -t ed25519 -C "jaswantpatel2000jassu@gmail.com"
+ git push origin master	
